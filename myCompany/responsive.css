@@ -1,0 +1,298 @@
+@media (max-width: 1350px) {
+    .service {
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .custom-btn {
+        padding: 15px 65px;
+    }
+
+    .hero-heading {
+        font-size: 50px;
+    }
+
+    .service-header {
+        font-size: 50px;
+    }
+
+    .nav-items {
+        gap: 2em;
+    }
+
+    .nav-lists {
+        gap: 1em;
+    }
+
+    .about-heading {
+        font-size: 50px;
+    }
+
+    .news-heading {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    body {
+        box-sizing: border-box;
+    }
+
+    .nav {
+        padding: 20px 78px;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0px;
+        overflow-x: hidden;
+        background-color: #071555;
+        height: 100%;
+        justify-content: flex-start;
+        padding-top: 50px;
+        z-index: 1;
+        transition: 0.5s;
+        box-sizing: border-box;
+    }
+
+    .nav-lists, .nav-search {
+        padding-left: 20px;
+    }
+
+    #navItems {
+        width: 0px;
+    }
+
+    .close-nav, .open-nav {
+        display: block !important;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .nav-lists {
+        flex-direction: column;
+    }
+
+    .nav-search input {
+        background-color: transparent;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+    }
+
+    .custom-btn {
+        padding: 10px 40px;
+    }
+
+    /* hero section */
+
+    .hero {
+        padding: 40px 78px;
+    }
+
+    .hero-left-box {
+        padding: 20px 20px;
+    }
+
+    .hero-heading {
+        font-size: 30px;
+    }
+
+    .hero-para {
+        font-size: 12px;
+    }
+
+    .hero-right-img {
+        width: 80%;
+    }
+
+    .hero-right-img img{
+        width: 100%;
+    }
+
+    /* service section */
+
+    .servicesWrapper {
+        flex-direction: column;
+    }
+
+    .service-header {
+        font-size: 30px;
+    }
+
+    .service {
+        padding: 50px 0 50px 0;
+    }
+
+    .service-items {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    /* about section */
+
+    .aboutWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-text-box {
+        padding: 50px 20px 50px 0;
+    }
+
+    .newsWrapper {
+        margin-top: 50px;
+    }
+
+    .about-img-box {
+        justify-content: flex-start;
+    }
+
+    .about-img-box .about-img {
+        width: 65%;
+    }
+
+    /* footer section */
+
+    .footerWrapper {
+        padding: 40px;
+    }
+
+    .footer-status-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3em;
+    }
+
+    .footer-status {
+        padding-left: 20px;
+    }
+
+    .footer-status h3 {
+        font-size: 16px;
+    }
+
+    .footer-status ul li a {
+        font-size: 14px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .social-icon i {
+        font-size: 15px;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+
+    /* nav section */
+    .nav {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* hero section */
+
+    .hero {
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+
+    .hero-left-box, .hero-right-box {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .hero-right-img {
+        width: 65%;
+    } 
+
+    /* service section */
+    .servicesWrapper {
+        padding: 10px 30px;
+    }
+
+    .service-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* about section */
+
+    .aboutWrapper {
+        padding: 0 30px 0;
+    }
+
+
+    /* news section */
+
+    .newsWrapper {
+        padding: 40px 30px;
+    }
+
+    /* footer section */
+
+    .footerWrapper {
+        padding: 40px 20px;
+    }
+
+    .footer-status-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+
+}
+
+@media (max-width: 481px) {
+
+    .custom-btn {
+        padding: 10px 40px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 20px;
+    }
+
+    .hero-left-box {
+        padding: 20px 0px;
+    }
+
+    .about-heading {
+        font-size: 30px;
+    }
+
+    .news-heading {
+        font-size: 20px;
+    }
+
+    .newsWrapper {
+        padding: 40px 10px;
+    }
+
+    /* footer section */
+    
+    .footerWrapper {
+        padding: 40px 20px;
+    }
+    
+    .footer-status-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
